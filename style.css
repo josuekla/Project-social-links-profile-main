@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100vh;
+}
+
+body{
+    background-color: var(--Grey-900);
+}
+
+
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: "Inter", sans-serif;
+}
+
+#main {
+    background-color: var(--Grey-800);
+    margin: auto;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 140px;
+    
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-profile{
+    text-align: center;
+
+        h1{
+            color: var(--White);
+            margin: 7px 0;
+            font-size: 2rem;
+        }
+
+        h3 {
+            color: var(--Green);
+            margin-bottom: 10px;
+        }
+
+        p{
+            color: white;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        img{
+            height: 50px;
+            border-radius: 50%;
+            margin: 25px 0 10px
+        };
+}
+
+.bnt-links {
+
+        ul{
+            list-style-type: none;
+        };
+
+        li {
+            padding: 5px 0px;
+            background-color: var(--Grey-700);
+            border-radius: 5px;
+            margin-bottom: 10px;
+            text-align: center;
+            
+        };
+         li:hover{
+            background-color: var(--Green);
+            cursor: pointer;
+            
+            }
+
+        li a{
+            text-decoration: none;
+            color: var(--White);
+            font-size: 1.6rem;
+            font-weight: 600;
+            width: 100%;
+            padding: 5px 65px;
+        }
+
+        li a:hover{
+            color: var(--Grey-700);
+        }
+}
+
+
+@media (max-width: 600px){
+    #main{
+        margin-top: 150px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
