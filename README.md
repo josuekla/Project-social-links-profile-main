@@ -27,7 +27,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL do site ativo: [https://josuekla.github.io/Sobre-me-v1.0/]()
+- URL do site ativo: [Aqui](https://josuekla.github.io/Project-social-links-profile-main/)
 
 ## Meu processo
 
