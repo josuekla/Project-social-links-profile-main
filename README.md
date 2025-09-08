@@ -1,4 +1,4 @@
-# Mentor Frontend - Solução para Perfil de Links Sociais
+Mini treino de Front end | Criação de design para Perfil de Links Sociais
 
 Esta é uma solução para o [desafio de perfil de links sociais no Mentor Frontend](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Os desafios do Mentor Frontend ajudam você a aprimorar suas habilidades de programação por meio da criação de projetos realistas.
 
